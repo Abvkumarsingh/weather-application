@@ -6,13 +6,16 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:#071610
+    /* background-color:#071610 */
+    background: #222
     ;
     color: white;
     bac
 }
 #contener{
-    background-color:#36A876
+    /* background-color:#36A87 6 */
+    background: linear-gradient(135deg, #00feba, #5b548a);
+
     ;
     /* width: 450px; */
     /* height: 98px; */
