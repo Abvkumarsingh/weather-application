@@ -1,0 +1,112 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#071610
+    ;
+    color: white;
+    bac
+}
+#contener{
+    background-color:#36A876
+    ;
+    /* width: 450px; */
+    /* height: 98px; */
+    margin: 20px 10px;
+    place-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+
+div{
+    margin: 10px;
+}
+#seach_bar{
+    margin: 10px;
+    display: flex;
+    /* margin-top: 150px; */
+}
+/*#imageplace{
+    width: 306px;
+    height: 213px;
+    background-color: white;
+    /* background-image:url("../image/clouds.png") ; */
+    /* background-repeat: no-repeat; */
+    /* text-align: center; */
+    /* padding: 5px; */
+
+/* } */
+#temperatures_box {
+    width: auto;
+    height: 145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    /* font-size: 20px; */
+    /* background-color: pink; */
+}
+#temp{
+    /* font-size: 20px; */
+    font-size: 47px;
+    /* padding: 10px; */
+    /* padding-left: 74px; */
+
+}
+#cityname{
+    font-size: 25px;
+}
+
+#otherinfo{
+    width: auto;
+    /* height: 110px; */
+    display: flex;
+    justify-content: space-between;
+    /* background-color:green; */
+    margin-bottom: 15px;
+}
+#faren{
+    padding-left: 30px;
+}
+#date{
+    padding-right: 70px;
+}
+#inputbox{
+    background-color: white;
+    padding: 10px;
+    width: auto;
+    border-radius: 30px;
+    /* margin-top: 150px; */
+    
+}
+#input_id{
+    width: 228px ;
+    height: 16px;
+    border: none;
+    outline-style: none;
+    /* background-color: white; */
+
+
+}
+#btn{
+    background-color: white;
+    width:55px;
+    border-radius: 50%;
+    border: none;
+}
+#btn i {
+    font-size: 20px;
+}
+i{
+    color: black;
+}
