@@ -11,7 +11,7 @@ const clear=document.getElementById("clear")
 
 
 async function fechapi(inname) {
-    const promis= await fetch(`http://api.weatherapi.com/v1/current.json?key=50b043a23af748199d2150903240806&q=${inname}&aqi=yes
+    const promis= await fetch(`https://api.weatherapi.com/v1/current.json?key=50b043a23af748199d2150903240806&q=${inname}&aqi=yes
 `)
     console.log(promis);
     const data=await promis.json();
